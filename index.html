@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Abby Lui</title>
+    <link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.3' type='text/css' media='all' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="section-1 box" style="padding-top: 2em;padding-right: 2em;padding-left: 2em;padding-bottom: 4em">
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+              <div class="group">
+                <div id="text"class="p1"><h2>Envirobear</h2><h3>A design sprint focusing on a fun incentive to reduce co2 emissions</h3></div>
+                <img id="project" class="project1" src="Envirobear.png" alt="Envirobear" style=" max-width: 100%;padding: 0.5em;">
+              </div>
+            </div>
+            <div class="col-lg-6 m-auto">
+              <div class="group">
+                <div id="text"class="p2"><h2>Swap</h2><h3>A mobile application that allows users to switch daily routines with friends, groups, or strangers to exchange their daily schedules.</h3></div>
+                <img id="project" class="project2" src="Swap.png" alt="Swap" style=" max-width: 100%;padding: 0.5em;">
+              </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top:1.5em;">
+            <div class="col-lg-6 m-auto">
+                <div class="group">
+                    <div id="text"class="p3"><h2>Observational Grid</h2><h3>Typographic layouts focusing on the composition and structure.</h3></div>
+                    <img id="project" class="project3" src="SWIM.png" alt="Observational Grid" style=" max-width: 100%;padding: 0.5em;">
+                </div>
+            </div>
+            <div class="col-lg-6 m-auto">
+              <div class="group">
+                <div id="text"class="p4"><h2>More Projects</h2><h3>Some creative work mostly done on Saturday nights</h3></div>
+                <img id="project" class="project4" src="More.png" alt="More Projects" style=" max-width: 100%;padding: 0.5em;">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mouse">
+        <img src="Mouse.png" alt="Scroll down" style=" max-width: 40%;">
+    </div>
+    <h1>Hey there, I am Abby.</h1>
+    <video id="video" src="Websitescreen0001-0080.mp4"></video>
+
+<style>
+.section-1 {
+    background: white;
+}
+.group {
+  position: relative;
+}
+.box {
+    width:100%;
+    color: black;
+    text-align: center;
+    margin-top: 300%;
+}
+html {
+  height:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:100%;
+    margin:0;
+    padding:0;
+}
+body {
+  height: 1000px;
+  box-sizing: border-box;
+  width:100%;
+    margin:0;
+    padding:0;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+video {
+  position: fixed;
+  left: 50%;
+  top: -5%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  transform: translateX(-50%);
+}
+h1 {
+  position: fixed;
+  top: 48%;
+  left: 50%;
+  max-width: 100%;
+  transform: translate(-50%,-50%);
+  z-index: -5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  font-size:8vmin;
+  text-align:center;
+  font-weight: 600;
+  color: white;
+}
+
+h2 {
+  font-size:3vmin;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+}
+h3 {
+  font-size:2vmin;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  font-weight: 500;
+  line-height: 3vmin;
+  color: white;
+  text-align: left;
+}
+.mouse {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  max-width: 100%;
+  transform: translate(-50%,-50%);
+  z-index: -5;
+}
+#text {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  padding-right: 4em;
+  z-index: 8;
+
+}
+
+</style>
+<script>
+  $(document).ready(function(){
+          $("#text").hide();
+          $(".p1").hide();
+          $(".p2").hide();
+          $(".p3").hide();
+          $(".p4").hide();
+        });
+
+var bLevel = 1;
+$(document).ready(function(){
+$('.project1').hover(function() { $(".p1").show();
+    bLevel -= .27;
+    $(this).css({"-webkit-filter" : "brightness("+bLevel+")"});
+    
+  },     
+    function() {$(".p1").hide();
+    bLevel += .27;
+    $(this).css({"-webkit-filter" : "brightness("+bLevel+")"});
+    
+  });
+});
+$(document).ready(function(){
+$('.project2').hover(function() { $(".p2").show();
+    bLevel -= .27;
+    $(this).css({"-webkit-filter" : "brightness("+bLevel+")"});
+    
+  },     
+    function() {$(".p2").hide();
+    bLevel += .27;
+    $(this).css({"-webkit-filter" : "brightness("+bLevel+")"});
+    
+  });
+});
+$(document).ready(function(){
+$('.project3').hover(function() { $(".p3").show();
+    bLevel -= .28;
+    $(this).css({"-webkit-filter" : "brightness("+bLevel+")"});
+    
+  },     
+    function() {$(".p3").hide();
+    bLevel += .28;
+    $(this).css({"-webkit-filter" : "brightness("+bLevel+")"});
+    
+  });
+});
+$(document).ready(function(){
+$('.project4').hover(function() { $(".p4").show();
+    bLevel -= .35;
+    $(this).css({"-webkit-filter" : "brightness("+bLevel+")"});
+    
+  },     
+    function() {$(".p4").hide();
+    bLevel += .35;
+    $(this).css({"-webkit-filter" : "brightness("+bLevel+")"});
+    
+  });
+});
+
+    function scrollVideo() {
+  var video = $('#video').get(0),
+    videoLength = video.duration,
+    scrollPosition = $(document).scrollTop();
+  
+  video.currentTime = (scrollPosition / ($(document).height() - $(window).height())) * videoLength;
+}
+
+$(window).scroll(function(e) {
+  scrollVideo();
+});
+</script>
+</body>
+</html>
