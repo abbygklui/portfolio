@@ -4,14 +4,14 @@
 * [Setup](#setup)
 
 ## About
-This project showcases my portfolio
+This project showcases my UX/UI and Graphic design portfolio.
 	
 ## Technologies
 Project is created with:
 * Jquery
 * HTML
 * CSS
-* Lots of Coffee
+* Javascript
 	
 ## Setup
 View the live site at https://github.com/abbygklui/portfolio
