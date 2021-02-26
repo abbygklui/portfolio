@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>About - Abby Lui</title>
-    <link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.3' type='text/css' media='all' />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -35,10 +36,10 @@
     </header>
 
     <div class="container aboutme" style="top: 50%;left: 50%;
-    transform: translate(-50%,-50%); position: absolute;">
+    transform: translate(-50%,-50%); position: absolute ;z-index: 40;">
         <div class="row">
             <div class="col-lg-7 m-auto" style="padding-top:3em">
-                <h5 style="color: black;">Hey there, Nice to meet you! &#128075;</h5> <br>
+                <h5 style="color: black;">Hello, Nice to meet you.</h5> <br>
                 <p style="color: black;">
                     I am Abby Lui. I am a graphic and UX/UI designer currently studying Graphic Design at OCAD University. This term, I am working as a digital designer at Jack/Jill/Cover Health. 
                     Aside from design, I like to code, attend hackathons, go camping, and play Pokemon Go. I am also big foodie, so I can't wait to attend more Yelp events once Covid 19 ends!
@@ -54,6 +55,29 @@
             </div>
         </div>
     </div>
+    <div class="background"></div>
+    <div class="container" style ="position: relative;">
+    <h5 style="color: black;">Sometimes, I like to draw</h5> <br>
+        <div class="row">
+            <div class="col-lg-7 m-auto" style="padding-top:3em">
+            </div>
+            <div class="col-lg-1 m-auto"></div>
+            <div class="col-lg-4 m-auto">
+                <img src="Images/Me.png" alt="ABBY LUI" style="max-width: 100%;">
+            </div>
+        </div>
+    </div>
+
+<style>
+  .background { 
+  background-color: rgb(221, 221, 221);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  z-index: -4;
+}
+</style>
 <script>
     function myFunction() {
   var x = document.getElementById("myLinks");
