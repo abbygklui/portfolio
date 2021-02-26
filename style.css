@@ -32,6 +32,7 @@ nav {
     font-weight: 400;
     color: #636363;
     transition: all 0.3s ease 0s;
+    justify-content: flex-end; 
 }
 .navbar .nav-item .nav-link:hover{
     color: rgb(58, 58, 58);
@@ -100,7 +101,15 @@ h1 {
     line-height: 1em;
     font-family: 'Titillium Web', sans-serif;
   }
+  /*subtitles ALL CAPS*/
+  h6 {
+    font-size:3vmin;
+    font-weight: 500;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 5vmin;
+    color: #636363;
 
+  }
 p {
     font-size:2vmin;
     font-weight: 300;
@@ -125,6 +134,8 @@ html {
       padding:0;
   }
 
+
+
 @media all and (max-width: 1024px) and (min-width: 0px) {
   .aboutme {
     margin-top:6em;
@@ -142,11 +153,81 @@ html {
     .pi {
       width: 70%;
     }
+    video {
+      position: fixed;
+      left: 50%;
+      top: -5%;
+      min-width: 103%;
+      min-height: 103%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      background-size: cover;
+      transform: translateX(-50%);
+      filter: brightness(100%);
+    }
 
 }
 
-@media (max-width: 1024px) and (min-width: 0px) {
+@media (max-width: 1024px) and (min-width: 768px) {
   .pi {
     width: 100%;
+  }
+  video {
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    min-width: 103%;
+    min-height: 110%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transform: translateX(-50%);
+    filter: brightness(100%);
+  }
+}
+
+@media (max-width: 768px) and (min-width: 480px) {
+  .pi {
+    width: 100%;
+  }
+  video {
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    min-width: 103%;
+    min-height: 110%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transform: translateX(-50%);
+    filter: brightness(100%);
+  }
+  .nav-link {
+    padding-right: 2em;
+  }
+}
+@media only screen 
+and (max-device-width : 480px) {
+  .pi {
+    width: 100%;
+  }
+  video {
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    min-width: 103%;
+    min-height: 110%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transform: translateX(-50%);
+    filter: brightness(100%);
+  }
+  .nav-link {
+    padding-right: 2em;
   }
 }
