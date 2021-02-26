@@ -14,4 +14,4 @@ Project is created with:
 * Javascript
 	
 ## Setup
-View the live site at https://github.com/abbygklui/portfolio
+View the live site at https://abbygklui.github.io/portfolio/.
