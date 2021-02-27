@@ -130,7 +130,7 @@ h2 {
 }
 /*SUBTITLES*/
 h3 {
-  font-size:2.5vmin;
+  font-size:3vmin;
   font-weight: 500;
   font-family: 'Titillium Web', sans-serif;
   line-height: 5vmin;
@@ -144,7 +144,7 @@ h4 {
 }
 
 h5 {
-  font-size:2em;
+  font-size:2.7em;
   font-weight: 600;
   line-height: 1em;
   font-family: 'Titillium Web', sans-serif;
