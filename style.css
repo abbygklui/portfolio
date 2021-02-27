@@ -21,7 +21,16 @@
 	box-sizing: border-box;
 }
 
-
+table, th, td {
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+  vertical-align:baseline;
+}
+th{
+  vertical-align:text-top;
+}
 
 
 /*navbar*/
@@ -95,7 +104,16 @@ html {
 
 /*DESKTOP*/
 
-@media (min-device-width: 1024px) {
+@media (min-width: 1024px) {
+  .images1 {
+    width: 75%;
+  }
+  .problemstatement {
+    padding: 7em;
+  }
+  th{
+    width: 320px;
+  }
     .c2 {
       padding-top:2em;
     }
@@ -153,7 +171,13 @@ h5 {
 
 }
 /*IPADS*/
-@media (max-device-width: 1024px) and (min-device-width: 768px) {
+@media (max-width: 1024px) and (min-width: 768px) {
+  .images1 {
+    width: 100%;
+  }
+  th{
+    width: 200px;
+  }
   .pi {
     width: 100%;
   }
@@ -192,10 +216,10 @@ h2 {
 }
 /*subtitles ALL CAPS*/
 h3 {
-  font-size:3vmin;
+  font-size:2vmin;
   font-weight: 500;
   font-family: 'Titillium Web', sans-serif;
-  line-height: 5vmin;
+  line-height: 3vmin;
 }
 /*text*/
 h4 {
@@ -206,7 +230,7 @@ h4 {
 }
 
 h5 {
-  font-size:2.7em;
+  font-size:1.8em;
   font-weight: 600;
   line-height: 1em;
   font-family: 'Titillium Web', sans-serif;
@@ -216,7 +240,10 @@ h5 {
 /*SMARTPHONES*/
 
 @media only screen 
-and (max-device-width : 768px) {
+and (max-width : 768px) {
+  .images1 {
+    width: 100%;
+  }
   .pi {
     width: 100%;
   }
@@ -243,7 +270,55 @@ and (max-device-width : 768px) {
   .c2 {
     padding-top:.5em;
   }
+
+h1 {
+  font-size:8.4vmin;
+  font-weight: 600;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
 }
+
+h2 {
+  font-size:4.5vmin;
+  font-weight: 400;
+  font-family: 'Titillium Web', sans-serif;
+}
+/*Subtitiles*/
+h3 {
+  font-size:1em;
+  font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1em;
+}
+/*text*/
+h4 {
+  font-size:1em;
+  font-weight: 400;
+  line-height: 2em;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h5 {
+  font-size:1.2em;
+  font-weight: 600;
+  line-height: 1em;
+  font-family: 'Titillium Web', sans-serif;
+}
+th{
+  width: 150px;
+}
+.ps1 {
+  padding-top: 2em;
+  font-size: 0.8em;
+  padding-right: 1em;
+}
+.ps2 {
+  padding-top: 1em;
+  margin-left: 2em;
+  font-size: 0.8em;
+}
+}
+
 /* mobile view navbar*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -263,38 +338,4 @@ and (max-device-width : 768px) {
     text-align: left;
     width:50%;
   }
-/*LANDING*/
-h1 {
-  font-size:8.4vmin;
-  font-weight: 600;
-  color: white;
-  font-family: 'Titillium Web', sans-serif;
-}
-
-h2 {
-  font-size:4.5vmin;
-  font-weight: 400;
-  font-family: 'Titillium Web', sans-serif;
-}
-/*Subtitiles*/
-h3 {
-  font-size:2em;
-  font-weight: 500;
-  font-family: 'Titillium Web', sans-serif;
-  line-height: 1em;
-}
-/*text*/
-h4 {
-  font-size:1em;
-  font-weight: 400;
-  line-height: 2em;
-  font-family: 'Titillium Web', sans-serif;
-}
-
-h5 {
-  font-size:2em;
-  font-weight: 600;
-  line-height: 1em;
-  font-family: 'Titillium Web', sans-serif;
-}
 }
