@@ -173,12 +173,14 @@ h5 {
 @media (max-width: 1024px) and (min-width: 768px) {
   .images1 {
     max-width: 100%;
+    width: auto;
   }
   th{
     width: 200px;
   }
   .pi {
     max-width: 100%;
+    width: auto;
   }
   .video {
     position: fixed;
@@ -242,9 +244,11 @@ h5 {
 and (max-width : 768px) {
   .images1 {
     max-width: 100%;
+    width: auto;
   }
   .pi {
     max-width: 100%;
+    width: auto;
   }
   .video {
       visibility: hidden;
