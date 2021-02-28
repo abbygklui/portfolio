@@ -247,17 +247,9 @@ and (max-width : 768px) {
     width: 100%;
   }
   .video {
-    position: fixed;
-    left: 50%;
-    top: 0%;
-    min-width: 103%;
-    min-height: 110%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    background-size: cover;
-    transform: translateX(-50%);
-    filter: brightness(100%);
+      visibility: hidden;
+      display: none;
+
   }
   .nav-link {
     padding-right: 2em;
