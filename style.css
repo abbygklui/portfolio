@@ -103,7 +103,6 @@ html {
 
 
 /*DESKTOP*/
-
 @media (min-width: 1024px) {
   .images1 {
     max-width: 75%;
@@ -128,8 +127,8 @@ html {
       position: fixed;
       left: 50%;
       top: -5%;
-      min-width: 103%;
-      min-height: 103%;
+      min-width: 100%;
+      min-height: 105%;
       width: auto;
       height: auto;
       z-index: -100;
@@ -184,18 +183,6 @@ h5 {
     visibility: hidden;
       display: none;
   }
-  .video {
-    position: fixed;
-    left: 50%;
-    top: -5%;
-    min-width: 103%;
-    min-height: 103%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    background-size: cover;
-    transform: translateX(-50%);
-  }
   th{
     width: 200px;
   }
@@ -206,9 +193,9 @@ h5 {
   .video {
     position: fixed;
     left: 50%;
-    top: 0%;
-    min-width: 103%;
-    min-height: 110%;
+    top: -5%;
+    min-width: 100%;
+    min-height: 105%;
     width: auto;
     height: auto;
     z-index: -100;
@@ -259,12 +246,94 @@ h5 {
   font-family: 'Titillium Web', sans-serif;
 }
 }
-
 /*SMARTPHONES*/
-
-
 @media only screen 
 and (max-width : 768px) {
+  .images1 {
+    max-width: 100%;
+    width: auto;
+  }
+  .pi {
+    max-width: 100%;
+    width: auto;
+  }
+   .video1 {
+    visibility: hidden;
+      display: none;
+  }
+  .video {
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transform: translateX(-50%);
+  }
+  .nav-link {
+    padding-right: 2em;
+  }
+  .aboutme {
+    margin-top:6em;
+    margin-bottom: 10%;
+  }
+  .c2 {
+    padding-top:.5em;
+  }
+
+h1 {
+  font-size:8.4vmin;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+}
+
+h2 {
+  font-size:4.5vmin;
+  font-weight: 400;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+/*Subtitiles*/
+h3 {
+  font-size:1em;
+  font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1em;
+}
+/*text*/
+h4 {
+  font-size:1em;
+  font-weight: 400;
+  line-height: 2em;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h5 {
+  font-size:1.2em;
+  font-weight: 600;
+  line-height: 1em;
+  font-family: 'Titillium Web', sans-serif;
+}
+th{
+  width: 150px;
+}
+.ps1 {
+  padding-top: 2em;
+  font-size: 0.8em;
+  padding-right: 1em;
+}
+.ps2 {
+  padding-top: 1em;
+  margin-left: 2em;
+  font-size: 0.8em;
+}
+}
+@media only screen 
+and (max-device-width : 768px) {
   .images1 {
     max-width: 100%;
     width: auto;
@@ -348,7 +417,6 @@ th{
   font-size: 0.8em;
 }
 }
-
 /* mobile view navbar*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
