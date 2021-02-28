@@ -172,13 +172,13 @@ h5 {
 /*IPADS*/
 @media (max-width: 1024px) and (min-width: 768px) {
   .images1 {
-    width: 100%;
+    max-width: 100%;
   }
   th{
     width: 200px;
   }
   .pi {
-    width: 100%;
+    max-width: 100%;
   }
   .video {
     position: fixed;
@@ -241,15 +241,14 @@ h5 {
 @media only screen 
 and (max-width : 768px) {
   .images1 {
-    width: 100%;
+    max-width: 100%;
   }
   .pi {
-    width: 100%;
+    max-width: 100%;
   }
   .video {
       visibility: hidden;
       display: none;
-
   }
   .nav-link {
     padding-right: 2em;
