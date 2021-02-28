@@ -111,6 +111,10 @@ html {
   .problemstatement {
     padding: 7em;
   }
+  .video1 {
+    visibility: hidden;
+      display: none;
+  }
   th{
     width: 320px;
   }
@@ -175,6 +179,22 @@ h5 {
   .images1 {
     max-width: 100%;
     width: auto;
+  }
+   .video1 {
+    visibility: hidden;
+      display: none;
+  }
+  .video {
+    position: fixed;
+    left: 50%;
+    top: -5%;
+    min-width: 103%;
+    min-height: 103%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transform: translateX(-50%);
   }
   th{
     width: 200px;
@@ -242,6 +262,7 @@ h5 {
 
 /*SMARTPHONES*/
 
+
 @media only screen 
 and (max-width : 768px) {
   .images1 {
@@ -253,16 +274,20 @@ and (max-width : 768px) {
     width: auto;
   }
   .video {
+    visibility: hidden;
+      display: none;
+  }
+
+  .video1 {
     position: fixed;
     left: 50%;
-    top: 10%;
-    max-width: 100%;
-    height: auto;
-    height: auto;
+    top: 0%;
+    width: auto;
+    height: 100%;
     z-index: -100;
+    background-size: cover;
     transform: translateX(-50%);
-    /*visibility: hidden;
-      display: none;*/
+    filter: brightness(100%);
   }
   .nav-link {
     padding-right: 2em;
@@ -278,14 +303,14 @@ and (max-width : 768px) {
 h1 {
   font-size:8.4vmin;
   font-weight: 600;
-  color: black;
   font-family: 'Titillium Web', sans-serif;
+  color: white;
 }
 
 h2 {
   font-size:4.5vmin;
   font-weight: 400;
-  color: black;
+  color: white;
   font-family: 'Titillium Web', sans-serif;
 }
 /*Subtitiles*/
