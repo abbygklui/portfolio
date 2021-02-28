@@ -106,7 +106,7 @@ html {
 
 @media (min-width: 1024px) {
   .images1 {
-    width: 75%;
+    max-width: 75%;
   }
   .problemstatement {
     padding: 7em;
@@ -118,7 +118,7 @@ html {
       padding-top:2em;
     }
     .pi {
-      width: 70%;
+      max-width: 70%;
     }
     .video {
       position: fixed;
