@@ -35,6 +35,16 @@
     </header>
 
 
+    <div class="mouse">
+      <a class="scrolldown"href="#section1" ><img src="Images/Mouse.png" alt="Scroll down" style=" max-width: 40%;"></a>
+  </div>
+  <div class="landingtext">
+    <h1>Hey there, I am Abby.</h1>
+    <h2 style="text-align: center;">UX/UI | Graphic Designer</h2>
+  </div>
+  <video id="video" class="video"src="Websitescreen0001-0080.mp4"></video>
+
+
     <div class="section-1 box" id="section1" style="padding-top: 3em;padding-right: 2em;padding-left: 2em;padding-bottom: 4em;">
         <div class="row">
             <div class="col-lg-6 m-auto">
@@ -65,16 +75,6 @@
             </div>
         </div>
     </div>
-
-    <div class="mouse">
-        <a class="scrolldown"href="#section1" ><img src="Images/Mouse.png" alt="Scroll down" style=" max-width: 40%;"></a>
-    </div>
-    <div class="landingtext">
-      <h1>Hey there, I am Abby.</h1>
-      <h2 style="text-align: center;color: white;">UX/UI | Graphic Designer</h2>
-    </div>
-    <video id="video" class="video"src="Websitescreen0001-0080.mp4"></video>
-
 
 
 
@@ -137,17 +137,6 @@ $(document).ready(function(){
 });
 
 
-function scrollVideo() {
-  var video = $('#video').get(0),
-    videoLength = video.duration,
-    scrollPosition = $(document).scrollTop();
-  
-  video.currentTime = (scrollPosition / ($(document).height() - $(window).height())) * videoLength;
-}
-
-$(window).scroll(function(e) {
-  scrollVideo();
-});
 
 
 $(document).ready(function(){

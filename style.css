@@ -143,6 +143,7 @@ h1 {
 h2 {
   font-size:4.5vmin;
   font-weight: 400;
+  color: white;
   font-family: 'Titillium Web', sans-serif;
 }
 /*SUBTITLES*/
@@ -213,6 +214,7 @@ h1 {
 h2 {
   font-size:4.5vmin;
   font-weight: 400;
+  color: white;
   font-family: 'Titillium Web', sans-serif;
 }
 /*subtitles ALL CAPS*/
@@ -251,8 +253,18 @@ and (max-width : 768px) {
     width: auto;
   }
   .video {
-      visibility: hidden;
-      display: none;
+    position: fixed;
+    left: 50%;
+    top: -5%;
+    min-width: 103%;
+    min-height: 103%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    filter: brightness(120%);
+    transform: translateX(-50%);
+    /*visibility: hidden;
+      display: none;*/
   }
   .nav-link {
     padding-right: 2em;
@@ -268,13 +280,14 @@ and (max-width : 768px) {
 h1 {
   font-size:8.4vmin;
   font-weight: 600;
-  color: white;
+  color: black;
   font-family: 'Titillium Web', sans-serif;
 }
 
 h2 {
   font-size:4.5vmin;
   font-weight: 400;
+  color: black;
   font-family: 'Titillium Web', sans-serif;
 }
 /*Subtitiles*/
