@@ -173,8 +173,8 @@ h5 {
 
 
 }
-/*IPADS*/
-@media (max-width: 1024px) and (min-width: 768px) {
+/*DESKTOP MEDIUM*/
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
   .images1 {
     max-width: 100%;
     width: auto;
@@ -246,7 +246,7 @@ h5 {
   font-family: 'Titillium Web', sans-serif;
 }
 }
-/*SMARTPHONES*/
+/*DESKTOP SMALL*/
 @media only screen 
 and (max-width : 768px) {
   .images1 {
@@ -332,6 +332,80 @@ th{
   font-size: 0.8em;
 }
 }
+/*IPADS*/
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+  .images1 {
+    max-width: 100%;
+    width: auto;
+  }
+   .video1 {
+    position: fixed;
+    left: 50%;
+    top: -5%;
+    min-width: 100%;
+    min-height: 105%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transform: translateX(-50%);
+    filter: brightness(100%);
+  }
+  th{
+    width: 200px;
+  }
+  .pi {
+    max-width: 100%;
+    width: auto;
+  }
+  .video {
+    visibility: hidden;
+    display: none;
+  }
+  .aboutme {
+    margin-top:6em;
+    margin-bottom: 10%;
+  }
+  .c2 {
+    padding-top:.5em;
+  }
+
+h1 {
+  font-size:8.4vmin;
+  font-weight: 600;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+  font-size:4.5vmin;
+  font-weight: 400;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+/*subtitles ALL CAPS*/
+h3 {
+  font-size:2vmin;
+  font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 3vmin;
+}
+/*text*/
+h4 {
+  font-size:1.5vmin;
+  font-weight: 400;
+  line-height: 3vmin;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h5 {
+  font-size:1.8em;
+  font-weight: 600;
+  line-height: 1em;
+  font-family: 'Titillium Web', sans-serif;
+}
+}
+/*PHONE ONLY*/
 @media only screen 
 and (max-device-width : 768px) {
   .images1 {
