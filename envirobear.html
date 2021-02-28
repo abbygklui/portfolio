@@ -164,15 +164,12 @@
                    <h4 style="color: white;">
                        This video is the final prototype for the design. Feel free to contact me for additional information!
                    </h4>
-                   <button onclick="playVid()" class="play" type="button" style="padding:0.8em 4em 0.2em 4em;color: black;background-color: white;border-radius: 200px;margin-top: 2em;margin-bottom: 2em;border: none;"><h4><b>PLAY VIDEO</b></h4></button>
-                   <button onclick="pauseVid()" class="pause" type="button"style="padding:0.8em 4em 0.2em 4em;color: black;background-color: white;border-radius: 200px;margin-top: 2em;margin-bottom: 2em;border: none;"><h4><b>PAUSE VIDEO</b></h4></button>
                </div>
                <div class="col-lg-5 m-auto">
-   
-                   <video id="myVideo" width="100%">
-                   <source src="Images/envirobear.mp4" type="video/mp4">
-                   Your browser does not support HTML5 video.
-                   </video>
+                   <video width="400" width="100%" controls>
+                    <source src="Images/envirobear.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                  </video>                  
                    </div>
                </div>
            </div>
@@ -187,42 +184,6 @@
 <style>
     .top { vertical-align: text-top; }
 </style>
-
-
-
-
-
-
-<script> 
-$(document).ready(function(){
-          $(".pause").hide();
-        });
-    var vid = document.getElementById("myVideo"); 
-    
-    function playVid() { 
-      vid.play(); 
-    }
-    function pauseVid() { 
-  vid.pause(); 
-} 
-
-$(document).ready(function(){
-    $(".play").click(function(){
-        $(".pause").show();
-        $(".play").hide();
-    });
-    $(".pause").click(function(){
-        $(".play").show();
-        $(".pause").hide();
-    });
-});
-
-
-</script>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 </html>

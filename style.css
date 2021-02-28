@@ -131,7 +131,6 @@ html {
       z-index: -100;
       background-size: cover;
       transform: translateX(-50%);
-      filter: brightness(100%);
     }
 
 h1 {
