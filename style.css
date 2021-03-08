@@ -175,7 +175,25 @@ h5 {
 }
 /*DESKTOP MEDIUM*/
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-  .images1 {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      width:50%;
+    }
+  
+.images1 {
     max-width: 100%;
     width: auto;
   }

@@ -11,6 +11,7 @@
     color: black;
     text-align: center;
     margin-top: 300%;
+    bottom:0px;
 }
 .bottom-left {
   position: absolute;
