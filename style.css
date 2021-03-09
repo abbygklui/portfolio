@@ -148,7 +148,7 @@ html {
     }
 
 h1 {
-  font-size:8.4vmin;
+  font-size:8.6vmin;
   font-weight: 600;
   color: white;
   font-family: 'Titillium Web', sans-serif;
@@ -169,7 +169,7 @@ h3 {
 }
 /*text*/
 h4 {
-  font-size:1.6vmin;
+  font-size:1.8vmin;
   font-weight: 400;
   line-height: 3vmin;
   font-family: 'Titillium Web', sans-serif;
@@ -425,7 +425,6 @@ and (max-width : 400px) {
   }
   .images2 {
     max-width: 100%;
-    width: auto;
   }
   .pi {
     max-width: 100%;
