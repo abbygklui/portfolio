@@ -104,6 +104,9 @@ html {
 
 /*DESKTOP*/
 @media (min-width: 1024px) {
+  .images2 {
+    max-width: 50%;
+  }
   .images1 {
     max-width: 75%;
   }
@@ -200,7 +203,9 @@ h5 {
       text-align: left;
       width:50%;
     }
-  
+    .images2 {
+      max-width: 100%;
+    }
 .images1 {
     max-width: 100%;
     width: auto;
@@ -299,6 +304,9 @@ and (max-width : 768px) {
     display: block;
     text-align: left;
     width:50%;
+  }
+  .images2 {
+    max-width: 100%;
   }
   .images1 {
     max-width: 100%;
@@ -412,6 +420,10 @@ and (max-width : 400px) {
     width:50%;
   }
   .images1 {
+    max-width: 100%;
+    width: auto;
+  }
+  .images2 {
     max-width: 100%;
     width: auto;
   }
