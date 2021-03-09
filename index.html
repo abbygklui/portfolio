@@ -87,6 +87,10 @@
           $("#text").hide();
         });
 
+$(window).on('popstate', function(event) {
+  $("#text").hide();
+});
+
 $(document).ready(function(){
     $("a").mouseenter(function(){
         $(this).find(".project1").finish().animate({
