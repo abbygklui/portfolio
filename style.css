@@ -17,9 +17,6 @@
     padding: 10px;
 }
 
-* {
-	box-sizing: border-box;
-}
 
 table, th, td {
   border-collapse: collapse;
@@ -99,9 +96,23 @@ html {
       padding:0;
   }
 
-
-
-  @media (min-width: 1220px) {
+  @media (min-width: 1320px){
+    * {
+      box-sizing: border-box;
+    }
+  }
+  @media (max-width: 1320px) and (min-width: 991px){
+    * {
+      box-sizing:content-box;
+    }
+  }
+  @media (max-width: 991px){
+    * {
+      box-sizing: border-box;
+    }
+  }
+  
+  @media (min-width: 1220px)  {
     .text20{
       width: 45%;
     }
@@ -406,6 +417,7 @@ and (max-width : 768px) {
     float: right;
     display: block;
   }
+
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
