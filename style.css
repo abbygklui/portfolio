@@ -101,7 +101,97 @@ html {
 
 
 
-
+  @media (min-width: 1220px) {
+    .text20{
+      width: 45%;
+    }
+    .images2 {
+      max-width: 50%;
+    }
+    .images1 {
+      max-width: 75%;
+    }
+    .problemstatement {
+      padding: 7em;
+    }
+    .video1 {
+      position: fixed;
+      left: 50%;
+      top: -5%;
+      min-width: 100%;
+      min-height: 105%;
+      width: auto;
+      height: auto;
+      z-index: -150;
+      background-size: cover;
+      transform: translateX(-50%);
+    }
+    .box {
+      width:100%;
+      color: black;
+      text-align: center;
+      margin-top: 400%;
+      bottom:0px;
+  }
+    th{
+      width: 320px;
+    }
+      .c2 {
+        padding-top:2em;
+      }
+      .pi {
+        max-width: 70%;
+      }
+      .video {
+        position: fixed;
+        left: 50%;
+        top: -5%;
+        min-width: 100%;
+        min-height: 105%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        background-size: cover;
+        transform: translateX(-50%);
+      }
+  
+  h1 {
+    font-size:8.6vmin;
+    font-weight: 600;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  h2 {
+    font-size:4.5vmin;
+    font-weight: 400;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  /*SUBTITLES*/
+  h3 {
+    font-size:2.5vmin;
+    font-weight: 500;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 5vmin;
+  }
+  /*text*/
+  h4 {
+    font-size:1.8vmin;
+    font-weight: 400;
+    line-height: 3vmin;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  h5 {
+    font-size:2em;
+    font-weight: 600;
+    line-height: 1em;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  
+  }
 /*DESKTOP*/
 @media (min-width: 1024px) {
   .text20{
@@ -128,6 +218,13 @@ html {
     background-size: cover;
     transform: translateX(-50%);
   }
+  .box {
+    width:100%;
+    color: black;
+    text-align: center;
+    margin-top: 300%;
+    bottom:0px;
+}
   th{
     width: 320px;
   }
@@ -187,6 +284,7 @@ h5 {
 
 
 }
+
 /*DESKTOP MEDIUM*/
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     .topnav a:not(:first-child) {display: none;}
@@ -206,6 +304,13 @@ h5 {
       text-align: left;
       width:50%;
     }
+    .box {
+      width:100%;
+      color: black;
+      text-align: center;
+      margin-top: 200%;
+      bottom:0px;
+  }
 
     .text20{
       width: 55%;
@@ -313,6 +418,13 @@ and (max-width : 768px) {
     text-align: left;
     width:50%;
   }
+  .box {
+    width:100%;
+    color: black;
+    text-align: center;
+    margin-top: 300%;
+    bottom:0px;
+}
   .text20{
     width: 75%;
   }
@@ -431,7 +543,13 @@ and (max-width : 400px) {
     width:50%;
   }
 
-
+  .box {
+    width:100%;
+    color: black;
+    text-align: center;
+    margin-top: 300%;
+    bottom:0px;
+}
 
   .images1 {
     max-width: 100%;
