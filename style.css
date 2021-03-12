@@ -123,7 +123,7 @@ html {
       max-width: 75%;
     }
     .problemstatement {
-      padding: 7em;
+      padding: 1em;
     }
     .video1 {
       position: fixed;
@@ -215,7 +215,7 @@ html {
     max-width: 75%;
   }
   .problemstatement {
-    padding: 7em;
+    padding: 3em;
   }
   .video1 {
     position: fixed;
@@ -630,7 +630,7 @@ h3 {
 }
 /*text*/
 h4 {
-  font-size:0.9em;
+  font-size:0.85em;
   font-weight: 400;
   line-height: 2em;
   font-family: 'Titillium Web', sans-serif;
