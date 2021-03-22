@@ -367,7 +367,6 @@ h5 {
     filter: brightness(100%);
   }
   .aboutme {
-    margin-top:6em;
     margin-bottom: 10%;
   }
   .c2 {
@@ -478,7 +477,6 @@ and (max-width : 768px) {
     padding-right: 2em;
   }
   .aboutme {
-    margin-top:6em;
     margin-bottom: 10%;
   }
   .c2 {
@@ -601,7 +599,6 @@ and (max-width : 400px) {
     padding-right: 2em;
   }
   .aboutme {
-    margin-top:6em;
     margin-bottom: 10%;
   }
   .c2 {
