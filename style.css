@@ -29,7 +29,6 @@ th{
   vertical-align:text-top;
 }
 
-
 /*navbar*/
 nav {
     z-index: 3000;
@@ -101,11 +100,11 @@ html {
       box-sizing: border-box;
     }
   }
-  @media (max-width: 1320px) and (min-width: 991px){
+  /* @media (max-width: 1320px) and (min-width: 991px){
     * {
       box-sizing:content-box;
     }
-  }
+  } */
   @media (max-width: 991px){
     * {
       box-sizing: border-box;
@@ -370,7 +369,7 @@ h5 {
     margin-bottom: 10%;
   }
   .c2 {
-    padding-top:.5em;
+    padding-top:.2em;
   }
 
 h1 {
@@ -480,7 +479,7 @@ and (max-width : 768px) {
     margin-bottom: 10%;
   }
   .c2 {
-    padding-top:.5em;
+    padding-top:.2em;
   }
 
 h1 {
@@ -602,7 +601,7 @@ and (max-width : 400px) {
     margin-bottom: 10%;
   }
   .c2 {
-    padding-top:.5em;
+    padding-top:.2em;
   }
 
 h1 {
