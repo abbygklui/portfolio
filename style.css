@@ -100,11 +100,11 @@ html {
       box-sizing: border-box;
     }
   }
-  /* @media (max-width: 1320px) and (min-width: 991px){
+  @media (max-width: 1320px) and (min-width: 991px){
     * {
       box-sizing:content-box;
     }
-  } */
+  }
   @media (max-width: 991px){
     * {
       box-sizing: border-box;
@@ -232,7 +232,7 @@ html {
     width:100%;
     color: black;
     text-align: center;
-    margin-top: 300%;
+    margin-top: 230%;
     bottom:0px;
 }
   th{
