@@ -1,8 +1,6 @@
 
-  
 .section-1 {
     background: white;
-    bottom:0%;
 }
 .group {
   position: relative;
@@ -41,7 +39,4 @@
     position: absolute;
     color: black;
 
-}
-#project{
-    z-index: 20;
 }

@@ -1,7 +1,114 @@
 @font-face {
   font-family: 'Titillium Web', sans-serif;
   src: url(https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap);
+  font-family: 'Work Sans', sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 }
+
+.box {
+  background-color: #F2F3F5;
+  border-radius: 15px;
+  padding:1.5em 4em 1em 4em;
+  margin-bottom: 2em;
+  height: 8em;
+}
+
+.box2 {
+  border-radius: 15px;
+  padding:1.5em 4em 1em 4em;
+}
+
+.left {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.space {
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.smallspace {
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+.bottomsmallestspace {
+  margin-bottom: 2%;
+}
+
+
+.images1 {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+/* buttons */
+
+
+.b1:hover {
+  background-color: #bbbbbb;
+  border: none;
+}
+.b1:focus {
+  outline: none;
+}
+.b1 {
+  transition-duration: 0.4s;
+  border: none;
+  padding:0.7em 4em 0.2em 4em;background-color: white;
+  color: black;border-radius: 200px;margin-top: 0.5em;
+  margin-bottom: 2em;
+  border: none;
+}
+
+/* blue button */
+
+.b2:hover {
+  background-color: #BAEAFF;
+  border: none;
+}
+.b2:focus {
+  outline: none;
+}
+.b2 {
+  transition-duration: 0.4s;
+  border: none;
+  padding:0.4em 4em 0em 4em;background-color: #5CAFDE;
+  color: white;border-radius: 200px;margin-top: 0.5em;
+  margin-bottom: 2em;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .vertical-center{
     display:flex;
     align-items: center;
@@ -18,16 +125,9 @@
 }
 
 
-table, th, td {
-  border-collapse: collapse;
-}
-th, td {
-  text-align: left;
-  vertical-align:baseline;
-}
-th{
-  vertical-align:text-top;
-}
+
+
+
 
 /*navbar*/
 nav {
@@ -95,31 +195,10 @@ html {
       padding:0;
   }
 
-  @media (min-width: 1320px){
-    * {
-      box-sizing: border-box;
-    }
-  }
-  @media (max-width: 1320px) and (min-width: 991px){
-    * {
-      box-sizing:content-box;
-    }
-  }
-  @media (max-width: 991px){
-    * {
-      box-sizing: border-box;
-    }
-  }
   
   @media (min-width: 1220px)  {
     .text20{
       width: 45%;
-    }
-    .images2 {
-      max-width: 50%;
-    }
-    .images1 {
-      max-width: 75%;
     }
     .problemstatement {
       padding: 1em;
@@ -140,7 +219,6 @@ html {
       width:100%;
       color: black;
       text-align: center;
-      margin-top: 400%;
       bottom:0px;
   }
     th{
@@ -168,21 +246,19 @@ html {
   h1 {
     font-size:8.6vmin;
     font-weight: 600;
-    color: white;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
   }
   
   h2 {
     font-size:4.5vmin;
     font-weight: 400;
-    color: white;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
   }
   /*SUBTITLES*/
   h3 {
     font-size:2.5vmin;
     font-weight: 500;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     line-height: 5vmin;
   }
   /*text*/
@@ -190,14 +266,14 @@ html {
     font-size:1.9vmin;
     font-weight: 400;
     line-height: 3vmin;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
   }
   
   h5 {
     font-size:2em;
     font-weight: 600;
     line-height: 1em;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
   }
   
   
@@ -206,12 +282,6 @@ html {
 @media (min-width: 1024px) {
   .text20{
     width: 45%;
-  }
-  .images2 {
-    max-width: 50%;
-  }
-  .images1 {
-    max-width: 75%;
   }
   .problemstatement {
     padding: 3em;
@@ -232,12 +302,11 @@ html {
     width:100%;
     color: black;
     text-align: center;
-    margin-top: 230%;
     bottom:0px;
 }
-  th{
-    width: 320px;
-  }
+.images2 {
+  max-width: 50%;
+}
     .c2 {
       padding-top:2em;
     }
@@ -258,40 +327,38 @@ html {
     }
 
 h1 {
-  font-size:8.6vmin;
+  font-size:3.8vmin;
   font-weight: 600;
-  color: white;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h2 {
-  font-size:4.5vmin;
-  font-weight: 400;
-  color: white;
-  font-family: 'Titillium Web', sans-serif;
+  font-size:3vmin;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
 }
 /*SUBTITLES*/
 h3 {
-  font-size:2.5vmin;
-  font-weight: 500;
-  font-family: 'Titillium Web', sans-serif;
-  line-height: 5vmin;
+  font-size:2vmin;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
 }
 /*text*/
 h4 {
-  font-size:1.7vmin;
+  font-size:1.9vmin;
   font-weight: 400;
-  line-height: 3vmin;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
-h5 {
-  font-size:2em;
+/*text*/
+p {
+  font-size:1em;
+  font-weight: regular;
+  font-family: 'Work Sans', sans-serif;
+}
+b {
   font-weight: 600;
-  line-height: 1em;
-  font-family: 'Titillium Web', sans-serif;
 }
-
 
 }
 
@@ -318,21 +385,12 @@ h5 {
       width:100%;
       color: black;
       text-align: center;
-      margin-top: 200%;
       bottom:0px;
   }
 
     .text20{
       width: 55%;
     }
-
-    .images2 {
-      max-width: 100%;
-    }
-.images1 {
-    max-width: 100%;
-    width: auto;
-  }
   .video1 {
     position: fixed;
     left: 50%;
@@ -371,25 +429,26 @@ h5 {
   .c2 {
     padding-top:.2em;
   }
+  .images2 {
+    max-width: 35%;
+  }
 
 h1 {
-  font-size:8.4vmin;
+  font-size:3em;
   font-weight: 600;
-  color: white;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h2 {
-  font-size:4.5vmin;
-  font-weight: 400;
-  color: white;
-  font-family: 'Titillium Web', sans-serif;
+  font-size:2em;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
 }
 /*subtitles ALL CAPS*/
 h3 {
   font-size:2vmin;
   font-weight: 500;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   line-height: 3vmin;
 }
 /*text*/
@@ -397,14 +456,14 @@ h4 {
   font-size:1.5vmin;
   font-weight: 400;
   line-height: 3vmin;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h5 {
   font-size:1.4em;
   font-weight: 600;
   line-height: 1em;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 }
 /*DESKTOP SMALL*/
@@ -432,18 +491,10 @@ and (max-width : 768px) {
     width:100%;
     color: black;
     text-align: center;
-    margin-top: 300%;
     bottom:0px;
 }
   .text20{
     width: 75%;
-  }
-  .images2 {
-    max-width: 100%;
-  }
-  .images1 {
-    max-width: 100%;
-    width: auto;
   }
   .pi {
     max-width: 100%;
@@ -481,40 +532,40 @@ and (max-width : 768px) {
   .c2 {
     padding-top:.2em;
   }
-
+  .images2 {
+    max-width: 40%;
+  }
 h1 {
-  font-size:8.4vmin;
+  font-size:2em;
   font-weight: 600;
-  font-family: 'Titillium Web', sans-serif;
-  color: white;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h2 {
-  font-size:4.5vmin;
-  font-weight: 400;
-  color: white;
-  font-family: 'Titillium Web', sans-serif;
+  font-size:1.5em;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
 }
 /*Subtitiles*/
 h3 {
-  font-size:1.1em;
-  font-weight: 500;
-  font-family: 'Titillium Web', sans-serif;
-  line-height: 1.4em;
+  font-size:1.2em;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
 }
 /*text*/
 h4 {
-  font-size:1em;
+  font-size:1.0em;
   font-weight: 400;
-  line-height: 2em;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
-h5 {
-  font-size:1.16em;
+p {
+  font-size:1em;
+  font-weight: regular;
+  font-family: 'Work Sans', sans-serif;
+}
+b {
   font-weight: 600;
-  line-height: 1em;
-  font-family: 'Titillium Web', sans-serif;
 }
 th{
   width: 150px;
@@ -555,18 +606,10 @@ and (max-width : 400px) {
   .box {
     width:100%;
     color: black;
-    text-align: center;
-    margin-top: 300%;
+
     bottom:0px;
 }
 
-  .images1 {
-    max-width: 100%;
-    width: auto;
-  }
-  .images2 {
-    max-width: 100%;
-  }
   .pi {
     max-width: 100%;
     width: auto;
@@ -605,39 +648,41 @@ and (max-width : 400px) {
   }
 
 h1 {
-  font-size:8.4vmin;
+  font-size:4vmin;
   font-weight: 600;
-  font-family: 'Titillium Web', sans-serif;
-  color: white;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h2 {
-  font-size:4.5vmin;
-  font-weight: 400;
-  color: white;
-  font-family: 'Titillium Web', sans-serif;
+  font-size:3.5vmin;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
 }
 /*Subtitiles*/
 h3 {
-  font-size:0.95em;
+  font-size:3vmin;
   font-weight: 500;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   line-height: 1.4em;
 }
-/*text*/
+
 h4 {
-  font-size:0.85em;
+  font-size:1.6vmin;
   font-weight: 400;
   line-height: 2em;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+/*text*/
+p {
+  font-size:1vmin;
+  font-weight: 400;
+  line-height: 2em;
+  font-family: 'Work Sans', sans-serif;
+}
+.images2 {
+  max-width: 35%;
 }
 
-h5 {
-  font-size:0.97em;
-  font-weight: 600;
-  line-height: 1em;
-  font-family: 'Titillium Web', sans-serif;
-}
 th{
   width: 95px;
 }

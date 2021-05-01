@@ -5,21 +5,26 @@
 <head>
 
     <title>Abby Lui</title>
+    <meta charset="utf-8">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel = "icon" href =  
     "Images/icon.png" >
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color: #d4d4d4">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <header>
     <nav class="navbar navbar-light navbar-expand-md fixed-top">
       <div class = "container">
-      <a href="index.html" class="navbar-brand vertical-center" style="padding: 5px auto 2px auto;"><img src="Images/LogoAL.png" alt="ABBY LUI"></a>
+      <a href="index.html" class="navbar-brand vertical-center"><img src="Images/LogoAL.png" alt="ABBY LUI"></a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="navbar-toggler-icon"></i>
         </button>  
@@ -36,58 +41,63 @@
     </header>
 
 
-    <div class="mouse">
-      <a class="scrolldown"href="#myprojects" ><img src="Images/Mouse.png" alt="Scroll down" style=" max-width: 40%;"></a>
-  </div>
-  <div class="landingtext"> 
-    <h1>Hey there, I am Abby.</h1>
-    <h2 style="text-align: center;">UX/UI Designer</h2>
-  </div>
-
-<div>
-  <img src="Images/landingvideo.png" class="video1">
-  <video id="video" class="video"src="Websitescreen0001-0080.mp4" autobuffer preload></video>
-</div>
 
 
-    <div class="section-1 box " id="myprojects" style="padding-top: 3em;padding-right: 2em;padding-left: 2em;padding-bottom: 4em;">
-        <div class="row">
+    <div class="container">
+      <div class="row" style="padding-top: 10em;padding-bottom: 10em;">
+        <div class="col-lg-6 m-auto">
+          <img src="Images/HithereI'mAbby.png" alt="Hi there I'm Abby" style="max-width: 101%;padding-bottom: 1em;">
+          <h4>
+            I love to create intuitive and empowering solutions using a design forward mindset. 
+            Currently, I’ve been building and redesigning products in Healthcare.
+          </h4>
+        </div>
+        <div class="col-lg-1 m-auto"></div>
+        <div class="col-lg-5 m-auto">
+          <img src="Images/Index.png" alt="Picture" style="max-width: 100%;">
+        </div>
+      </div>
+        
+
+
+      <div class="section-1">
+        <div class="row justify-content-between">
           <div class="col-lg-6 m-auto">
-            <div class="group">                                           
-                <div id="text"class="p1" style="z-index: 2;"<h3>PrepU</h3>
+            <div>                                           
+                <div id="text"class="p1" style="z-index: 2;"><h3>PrepU</h3>
                   <h4>#UX/UI #Strategy #UX Research</h4>
                   <!-- <h4>Customized interview insights to help young adults improve their interview performance.</h4> -->
                 </div>
-                <a class="nav-link" href="PrepU.html"><img id="project" class="project1" src="Images/PrepU.png" alt="PrepU" style=" max-width: 100%;padding: 0.2em;z-index: 20;position: relative;"></a>
+                <a class="nav-link" href="PrepU.html"><img class="project1" src="Images/PrepU.png" alt="PrepU" style=" max-width: 100%;z-index: 20;position: relative;"></a>
             </div>
         </div>
         <div class="col-lg-6 m-auto">
-          <div class="group 5"> 
+          <div> 
             <div id="text" style="z-index: 2;" class="p5"><h3>Envirobear</h3>
               <h4>#UX/UI #Concept #Illustration</h4>
               <!-- <h4>A design sprint focusing on a fun incentive to reduce co2 emissions.</h4> -->
             </div>
-            <a class="nav-link" href="envirobear.html"><img id="project" class="project1" src="Images/Envirobear.png" alt="Envirobear" style=" max-width: 100%;padding: 0.2em;z-index: 20;position: relative;"></a>
+            <a class="nav-link" href="envirobear.html"><img class="project1" src="Images/Envirobear.png" alt="Envirobear" style=" max-width: 100%;z-index: 20;position: relative;"></a>
           </div>
         </div>
         </div>
-        <div class="row c2" >
+        <div class="row c2 justify-content-between" >
           <div class="col-lg-6 m-auto">
-            <div class="group 6">
+            <div>
               <div id="text" style="z-index: 2;" class="p5"><h3>Swap</h3>
               <h4>#UX/UI #Concept </h4>
                 <!-- <h4>Exchanging daily routines with friends, groups, or strangers.</h4> -->
               </div>
-              <a class="nav-link" href="swap.html"><img id="project" class="project2" src="Images/Swap.png" alt="Swap" style="max-width: 100%;padding: 0.2em;z-index: 20;position: relative;"></a>
+              <a class="nav-link" href="swap.html"><img class="project2" src="Images/Swap.png" alt="Swap" style="max-width: 100%;z-index: 20;position: relative;"></a>
             </div>
           </div>
           <div class="col-lg-6 m-auto">
-            <div class="group 2">
+            <div>
               <div id="text"class="p4" style="z-index: 2;" ><h3>More Projects</h3>
                 <h4>#UX/UI #Concept #Graphic Design</h4>
                 <!-- <h4>Some creative work mostly made on Saturday nights.</h4> -->
               </div>
-              <a class="nav-link" href="moreprojects.html"><img id="project" class="project1" src="Images/More.png" alt="More Projects" style=" max-width: 100%;padding: 0.2em;z-index: 20;position: relative;"></a>
+              <a class="nav-link" href="moreprojects.html"><img class="project1 images1" src="Images/More.png" alt="More Projects" style=" max-width: 100%;z-index: 20;position: relative;"></a>
               <!-- <div id="text"class="p2" style="z-index: 2;" ><h3>Jack, Jill, and Cover Health</h3><h4>#DigitalDesign #Rebranding #UXWriting</h4></div>
               <a class="nav-link" href="JackJillCoverHealth.html"><img id="project" class="project3" src="Images/Jack:Jill:Cover.png" alt="Jack, Jill and Cover Health" style=" max-width: 100%;padding: 0.2em;z-index: 20;position: relative;"></a>
             </div> -->
@@ -108,6 +118,11 @@
             </div>
         </div> -->
       </div>
+    </div>
+
+
+
+  
 
 
 
@@ -171,19 +186,6 @@ $(document).ready(function(){
         });
         $(".p4").hide();
     });
-});
-
-
-function scrollVideo() {
-  var video = $('.video').get(0),
-    videoLength = video.duration,
-    scrollPosition = $(document).scrollTop();
-  
-  video.currentTime = (scrollPosition / ($(document).height() - $(window).height())) * videoLength;
-}
-
-$(window).scroll(function(e) {
-  scrollVideo();
 });
 
 
