@@ -5,6 +5,23 @@
   src: url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 }
 
+
+
+
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+/* dribbble, email, and linkedin hover*/
+.link:hover {
+  opacity: 0.6;
+}
+
+
+
+
+
 .box {
   background-color: #F2F3F5;
   border-radius: 15px;
@@ -243,38 +260,36 @@ html {
         transform: translateX(-50%);
       }
   
-  h1 {
-    font-size:8.6vmin;
-    font-weight: 600;
-    font-family: 'Work Sans', sans-serif;
-  }
-  
-  h2 {
-    font-size:4.5vmin;
-    font-weight: 400;
-    font-family: 'Work Sans', sans-serif;
-  }
-  /*SUBTITLES*/
-  h3 {
-    font-size:2.5vmin;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
-    line-height: 5vmin;
-  }
-  /*text*/
-  h4 {
-    font-size:1.9vmin;
-    font-weight: 400;
-    line-height: 3vmin;
-    font-family: 'Work Sans', sans-serif;
-  }
-  
-  h5 {
-    font-size:2em;
-    font-weight: 600;
-    line-height: 1em;
-    font-family: 'Work Sans', sans-serif;
-  }
+      h1 {
+        font-size:3.8vmin;
+        font-weight: 600;
+        font-family: 'Work Sans', sans-serif;
+      }
+      
+      h2 {
+        font-size:3.1vmin;
+        font-weight: 600;
+        font-family: 'Work Sans', sans-serif;
+      }
+      /*SUBTITLES*/
+      h3 {
+        font-size:2.1vmin;
+        font-weight: 600;
+        font-family: 'Work Sans', sans-serif;
+      }
+      /*text*/
+      h4 {
+        font-size:2vmin;
+        font-weight: 400;
+        font-family: 'Work Sans', sans-serif;
+      }
+      
+      /*text*/
+      p {
+        font-size:1.1em;
+        font-weight: regular;
+        font-family: 'Work Sans', sans-serif;
+      }
   
   
   }
@@ -307,6 +322,13 @@ html {
 .images2 {
   max-width: 50%;
 }
+
+.link {
+  max-width: 60%;
+}
+
+
+
     .c2 {
       padding-top:2em;
     }
@@ -364,6 +386,11 @@ b {
 
 /*DESKTOP MEDIUM*/
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+  .project1 {
+    margin-top: 0.5em;margin-bottom: 0.5em;
+  }
+  
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -386,6 +413,9 @@ b {
       color: black;
       text-align: center;
       bottom:0px;
+  }
+  .link {
+    max-width: 60%;
   }
 
     .text20{
@@ -453,22 +483,26 @@ h3 {
 }
 /*text*/
 h4 {
-  font-size:1.5vmin;
+  font-size:1.4em;
   font-weight: 400;
-  line-height: 3vmin;
   font-family: 'Work Sans', sans-serif;
 }
 
-h5 {
-  font-size:1.4em;
-  font-weight: 600;
-  line-height: 1em;
+p {
+  font-size:0.9em;
+  font-weight: 400;
   font-family: 'Work Sans', sans-serif;
 }
+
 }
 /*DESKTOP SMALL*/
 @media only screen 
 and (max-width : 768px) {
+
+  .project1 {
+    margin-top: 0.5em;margin-bottom: 0.5em;
+  }
+
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -486,6 +520,10 @@ and (max-width : 768px) {
     display: block;
     text-align: left;
     width:50%;
+  }
+
+  .link{
+    max-width: 40%;
   }
   .box {
     width:100%;
@@ -585,6 +623,11 @@ th{
 /*MOBILE*/
 @media only screen 
 and (max-width : 400px) {
+
+
+  .project1 {
+    margin-top: 0.5em;margin-bottom: 0.5em;
+  }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -601,6 +644,11 @@ and (max-width : 400px) {
     display: block;
     text-align: left;
     width:50%;
+  }
+
+
+  .link {
+    max-width: 60%;
   }
 
   .box {
@@ -648,33 +696,33 @@ and (max-width : 400px) {
   }
 
 h1 {
-  font-size:4vmin;
+  font-size:2em;
   font-weight: 600;
   font-family: 'Work Sans', sans-serif;
 }
 
 h2 {
-  font-size:3.5vmin;
+  font-size:1.5em;
   font-weight: 600;
   font-family: 'Work Sans', sans-serif;
 }
 /*Subtitiles*/
 h3 {
-  font-size:3vmin;
+  font-size:1.2em;
   font-weight: 500;
   font-family: 'Work Sans', sans-serif;
   line-height: 1.4em;
 }
 
 h4 {
-  font-size:1.6vmin;
+  font-size:1em;
   font-weight: 400;
   line-height: 2em;
   font-family: 'Work Sans', sans-serif;
 }
 /*text*/
 p {
-  font-size:1vmin;
+  font-size:0.9em;
   font-weight: 400;
   line-height: 2em;
   font-family: 'Work Sans', sans-serif;
