@@ -147,7 +147,9 @@
         });
 
 $(window).on('popstate', function(event) {
-  $("#text").hide();
+  $(this).find(".project1").finish().animate({
+            opacity: "1"
+  });
 });
 
 $(document).ready(function(){

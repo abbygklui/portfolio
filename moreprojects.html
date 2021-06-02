@@ -210,7 +210,13 @@
 
 
 
-
+<script>
+  $(window).on('popstate', function(event) {
+  $(this).find(".project1").finish().animate({
+            opacity: "1"
+  });
+});
+</script>
 
 
 
