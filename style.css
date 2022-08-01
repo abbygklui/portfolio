@@ -39,6 +39,9 @@
 */
 
 
+
+
+
 .box {
   background-color: #F2F3F5;
   border-radius: 15px;
@@ -188,7 +191,7 @@ nav {
     border: none;
 } 
 .navbar {
-    position: fixed;
+    position:absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -314,6 +317,12 @@ html {
   }
 /*DESKTOP*/
 @media (min-width: 1024px) {
+
+
+  .csmall {
+    padding: 0 10em;
+  }
+  
   .text20{
     width: 45%;
   }
@@ -590,7 +599,8 @@ and (max-width : 768px) {
     padding-top:.2em;
   }
   .images2 {
-    max-width: 40%;
+    max-width: 0%;
+    text-align: left;
   }
 h1 {
   font-size:2em;
@@ -747,7 +757,8 @@ p {
   font-family: 'Work Sans', sans-serif;
 }
 .images2 {
-  max-width: 35%;
+  text-align: left;
+  max-width: 0%;
 }
 
 th{
